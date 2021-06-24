@@ -1,9 +1,7 @@
 #include <iostream>
 
-using namespace std;
-
 void minha_funcao() {
-    cout << "Essa é uma função" << endl;
+    std::cout << "Essa é uma função" << "\n";
 }
 
 int soma(int x, int y){
@@ -14,7 +12,22 @@ int main()
 {
 
     minha_funcao();
-    cout << soma(3,10) << endl;
+    std::cout << soma(3,10) << "\n";
+    std::cout << soma(20,10) << "\n";
+    std::cout << soma(30,10) << "\n";
+
+    char caracter {'a'};
+    std::string palavras = "ass";
+
+    std::cout << "O valor de a é: " << caracter << "\n";
+
+    std::cout << "O valor direto para MAIÚCULO de a é: " << toupper( caracter ) << "\n";
+
+    caracter = toupper( caracter );
+    std::cout << "O valor de caracter é: " << caracter << "\n";
+    std::cout << "O valor das palavras é: " << palavras << "\n";
+
+    std::cout << "O valor em toupper da palavra é: " << toupper( palavras ) << "\n";
 
     return 0;
 }
