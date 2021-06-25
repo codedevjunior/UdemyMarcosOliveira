@@ -1,8 +1,7 @@
 #include <iostream>
+#include "produto.h"
 
-int produto(int valor1, int valor2){
-    return valor1 * valor2;
-}
+int produto(int, int);
 
 int main() {
 

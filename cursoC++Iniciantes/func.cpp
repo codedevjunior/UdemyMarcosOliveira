@@ -27,7 +27,5 @@ int main()
     std::cout << "O valor de caracter é: " << caracter << "\n";
     std::cout << "O valor das palavras é: " << palavras << "\n";
 
-    std::cout << "O valor em toupper da palavra é: " << toupper( palavras ) << "\n";
-
     return 0;
 }
